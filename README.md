@@ -18,5 +18,5 @@ This implementation of the Tower of Hanoi problem models the 3 poles as 3 lists
 (treated as stacks), and models the disks as the elements in those lists. The 
 size of the disks relative to one another is represented by the original ordering
 of the items in the list they are being moved from. (They are ordered 'largest'-
-to-'smallest' from left to right.) In this model the given algorithm follows all 
-constraints of the problem.
+to-'smallest' from left to right.) In this model the provided algorithm follows all 
+constraints of the stated problem.
