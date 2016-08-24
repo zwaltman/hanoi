@@ -4,8 +4,9 @@ Implementation of a recursive solution to the 'Tower of Hanoi' problem.
 
 def move(from_stack, to_stack, aux_stack, h=None):
     """
-    Moves last h elements from from_stack to to_stack, using aux_stack
-    as extra space for moving elements around. 
+    Moves last h elements from from_stack to to_stack
+    
+    Uses aux_stack as extra space for moving elements around 
     """    
     if h == None:
         h = len(from_stack)
